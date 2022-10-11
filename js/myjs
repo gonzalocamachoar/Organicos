@@ -1,0 +1,9 @@
+window.onload=iniciar;
+
+function mouseOver(){
+	document.getElementById("foto").style.color = "red";
+	}
+
+function mouseOut() {
+	document.getElementById("foto").style.color = "black";
+	}
