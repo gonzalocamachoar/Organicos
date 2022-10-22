@@ -1,0 +1,157 @@
+:root {
+    --blanco: #ffffff;
+    --oscuro: #28660d;
+    --Cbody: #d3de43;
+    --Lcampo: #28660d;
+    --primario: #ffc107;
+    --secundario: #faf037;
+    --fuente-principal:3.8rem;
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-snap-type: y mandatory;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+body{
+    font-size: 16px;
+    font-family: century-gothic, sans-serif;
+    background-image: linear-gradient(to top, #DFE9F3 0%, var(--Cbody)100%);
+}
+
+ul.horizontal{
+    margin:0;
+    padding:0;
+}
+    ul.horizontal li{
+        display:block;
+        float:left;
+        padding:0 10px;
+    }
+
+
+h1{
+    font-size: 3.8rem;
+    color: var(--Lcampo);
+}
+
+h2{
+    font-size: 2.8rem;
+    color: var(--Lcampo);
+}
+
+h3{
+    font-size: 2rem;
+    text-align: left;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+h4{
+    text-align: justify;
+}
+
+.c{
+    text-align: center;
+}  
+.l{
+    text-align: left;
+}
+.r  
+{
+    text-align: right;
+}  
+
+.tdc {
+  height: 80px;
+  width: 160px;
+  text-align: center;
+  vertical-align: middle;
+}
+.titulo span{
+    font-size: 2rem; 
+    
+}
+.contenedor{
+   max-width: 120rem;
+    
+margin: 0 auto 0 auto;
+}
+
+.sombra{
+-webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.35);
+-moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.35);
+box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.35);
+background-color: var(--blanco);
+padding: 2rem;
+border-radius: 0.5rem;
+}
+/*utilidades*/
+
+/*Navegacion*/
+.nav-bg{
+    background-color: var(--secundario);
+}
+.navegacion-principal{
+ 
+ display: flex;
+ flex-direction: column;
+  justify-content: space-between; 
+}
+.navegacion-principal a{
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+.navegacion-principal a:hover{
+    background-color: var(--primario);
+    color: var(--oscuro);
+}
+.formulario {
+        background-color: var(--secundario);
+        width: min(60rem, 100%);
+        
+        margin: 0 auto;
+        padding: 2rem;
+        border-radius: .5rem;
+}
+.formulario fieldset{
+    border:  none;
+}
+.formulario legend{
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--oscuro);
+}
+.contenedor-campos{
+    display: grid;
+    grid-template-columns: 50%;
+
+}
+
+
+.campo{
+    margin-bottom: 2rem;
+}
+
+
+
+.input-text{
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: .5rem;
+}
+
+
