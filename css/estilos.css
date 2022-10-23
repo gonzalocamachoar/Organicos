@@ -33,7 +33,6 @@ ul.horizontal{
         padding:0 10px;
     }
 
-
 h1{
     font-size: 3.8rem;
     color: var(--Lcampo);
@@ -68,18 +67,13 @@ h4{
     text-align: right;
 }  
 
-.tdc {
-  height: 80px;
-  width: 160px;
-  text-align: center;
-  vertical-align: middle;
-}
+
 .titulo span{
     font-size: 2rem; 
     
 }
 .contenedor{
-   max-width: 120rem;
+   max-width: 100rem;
     
 margin: 0 auto 0 auto;
 }
@@ -89,10 +83,10 @@ margin: 0 auto 0 auto;
 -moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.35);
 box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.35);
 background-color: var(--blanco);
-padding: 2rem;
+padding: 0.1rem;
 border-radius: 0.5rem;
 }
-/*utilidades*/
+
 
 /*Navegacion*/
 .nav-bg{
@@ -154,4 +148,53 @@ border-radius: 0.5rem;
     border-radius: .5rem;
 }
 
+/*utilidades*/
+.boton {background-color: var(--secundario);
+    color: var(--oscuro);
+    padding: 1rem 3rem;
+    margin-top: 3rem;
+    font-size: 1.7rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    width: 90%;
+    text-align: center;
+    border: none;
 
+}
+@media (min-width: 768px){
+ .boton{
+    width: auto;
+}
+}
+.boton:hover{
+    cursor: pointer;
+}
+
+.remove-bg{
+filter: brightness (1.1);
+mix-blend-mode : multiply;
+}
+
+table.table-p{
+	width:100%;
+	border-spacing: 10px 25px;
+	border:2px solid black;
+	}
+	table.table-p td{
+		border:2px solid black;
+        text-align: center;
+}
+
+table{
+	width:100%;
+    }
+    
+
+.tdl {
+  //height: 80px;
+  //width: 160px;
+  text-align: left;
+  vertical-align: middle;
+}
